@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 function Left_Navbar () {
 return (
     
-    <section className={styles.Left_Navbar}>  
-
- 
+    <section className={styles.Left_Navbar}> 
     
         <div class="container">
             <div class="row">
@@ -20,7 +18,7 @@ return (
                 <Link to="/chat_on_telegram"> <i class="fa fa-download" aria-hidden="true"></i> App Download </Link>
                 <Link to="/Share"> <i class="fas fa-history"></i> Show History </Link> 
                 <Link to="/Share"> <i class="fas fa-exchange-alt"></i> Transactions </Link> 
-                <Link to="/Share"> <i class="fas fa-user-circle"></i> My Profile </Link> 
+                <Link to="/My_Profile"> <i class="fas fa-user-circle"></i> My Profile </Link> 
                 <Link to="/Sign_Up"> <i class="fas fa-sign-out-alt"></i> Log out </Link> 
             </ul>
              </div> 

@@ -24,6 +24,7 @@ import House_Bet from './Bet/House_Bet';
 import Laptop_Bet from './Bet/Laptop_Bet';
 import Sign_Up from './Sign_Up';
 import Login from './Login';
+import My_Profile from './My_Profile';
 
 
 function All_Link () {
@@ -32,6 +33,7 @@ function All_Link () {
         <Routes>
             <Route path="/Sign_Up" element={<Sign_Up />} />
             <Route path="/Login" element={<Login />} />
+            <Route path="/My_Profile" element={<My_Profile />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Chat_On_Telegram" element={<Chat_On_Telegram />} />
             <Route path="/Share" element={<Share />} />
